@@ -30,7 +30,6 @@ L6 = L.copy()
 L7 = L.copy()
 L8 = L.copy()
 L9 = L.copy()
-# baza = int(input("Dati baza in care vom lucra: "))
 timp1 = time.time()
 def radix_sort(V):
     buckets = [[] for _ in range(10)]
