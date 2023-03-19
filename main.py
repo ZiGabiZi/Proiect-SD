@@ -335,7 +335,6 @@ def IntrosortUtil(start, end, depthLimit):
 
 
 def Introsort(start, end):
-    # initialise the depthLimit as 2 * log(length(data))
 
     depthLimit = 2 * math.floor(math.log2(end - start))
     IntrosortUtil(start, end, depthLimit)
